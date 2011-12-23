@@ -29,7 +29,7 @@ KueStore[:any_key_name_you_can_think_of] = "Any object you can dream up"
 Get a value by key.
 
 ```ruby
-KueStore[:any_setting_name_you_can_think_of] 
+KueStore[:any_key_name_you_can_think_of] 
 ```
 
 Don't worry it's not just string value's kue can store for you. It's anything!
