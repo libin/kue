@@ -10,15 +10,13 @@ rails generate kue:install
 rails db:migrate
 
 ### Use Kue
-Settings a key
+Set a key and it's value
 
 ```ruby
-KueStore[:any_setting_name_you_can_think_of] = "Any object you can dream up"
+KueStore[:any_key_name_you_can_think_of] = "Any object you can dream up"
 ```
 
-Getting a key
+Get a value by key
 ```ruby
 KueStore[:any_setting_name_you_can_think_of] 
-#returns
-=> "Any object you can dream up"
 ```
