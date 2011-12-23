@@ -10,7 +10,7 @@ Redis is awesome! But sometimes you just don't want or need the external dependa
 
 ### How do I install Kue?
     rails generate kue:install
-    rails db:migrate
+    rake db:migrate
 
 ### Use Kue
 Set a key and it's value.
