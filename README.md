@@ -1,4 +1,4 @@
-#Kue
+###Kue
 
 Kue is a key value store that uses active-record under the hood.
 
