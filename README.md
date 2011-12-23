@@ -9,9 +9,8 @@ K(eyVal)ue
 Redis is awesome! But sometimes you just don't want or need the external dependancy!
 
 ### How do I install Kue?
-rails generate kue:install
-
-rails db:migrate
+  rails generate kue:install
+  rails db:migrate
 
 ### Use Kue
 Set a key and it's value
