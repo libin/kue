@@ -15,6 +15,7 @@ Install the gem
     gem 'kue'       (gemfile)
 
 Run the generator
+
     rails generate kue:install
     rake db:migrate
 
