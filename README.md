@@ -39,6 +39,7 @@ KueStore[:my_class_instance] = Foo.new(:name => 1)
 ```
 
 Find out if a key exists?
+
 ```ruby
 KueStore.exists?(:my_class_instance)
 ```
