@@ -1,9 +1,12 @@
 ###Kue
 
-Kue is a key value store that uses active-record under the hood.
+Kue is a Rails ready key value store that uses active-record under the hood.
 
 ###What does Kue mean?
 K(eyVal)ue 
+
+###What about real key value stores?
+Redis is awesome! But sometimes you just don't want or need the external dependancy!
 
 ### Install Kue
 rails generate kue:install
