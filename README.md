@@ -22,6 +22,12 @@ Get a value by key
 KueStore[:any_setting_name_you_can_think_of] 
 ```
 
+Don't worry it's not just string value's kue can hold onto. It's anything!
+
+```ruby
+KueStore[:my_class_instance] = Foo.new(:name => 1)
+```
+
 ### Dude there are no spec's!
 Yep! This has been extracted out of one of my production application that does have spec's! 
 Don't have the time to setup all the test's and spec's for kue. 
