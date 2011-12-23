@@ -10,8 +10,10 @@ Redis is awesome! But sometimes you just don't want or need the external dependa
 
 ### How do I install Kue?
 Install the gem
+
     gem install kue (command line)
     gem 'kue'       (gemfile)
+
 Run the generator
     rails generate kue:install
     rake db:migrate
