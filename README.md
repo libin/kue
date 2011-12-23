@@ -31,7 +31,7 @@ Don't worry it's not just string value's kue can store for you. It's anything!
 KueStore[:my_class_instance] = Foo.new(:name => 1)
 ```
 
-### Dude there are no spec's!
-Yep! This has been extracted out of one of my production application that does have spec's! 
-Don't have the time to setup all the test's and spec's for kue. 
+### WTF dude there are no spec's?!?
+Yep! This has been extracted out of one of my production application that does have specs! 
+Don't have the time to setup all the tests and specs for kue. 
 I will merge a nice pull request though!
