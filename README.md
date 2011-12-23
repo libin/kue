@@ -38,6 +38,12 @@ Don't worry it's not just string value's kue can store for you. It's anything!
 KueStore[:my_class_instance] = Foo.new(:name => 1)
 ```
 
+Find out if a key exists?
+```ruby
+KueStore.exists?(:my_class_instance)
+```
+
+
 ### WTF dude there are no spec's?!?
 Yep! This has been extracted out of one of my production application that does have specs! 
 Don't have the time to setup all the tests and specs for kue. 
