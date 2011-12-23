@@ -8,8 +8,9 @@ K(eyVal)ue
 ###What about real key value stores?
 Redis is awesome! But sometimes you just don't want or need the external dependancy!
 
-### Install Kue
+### How do I install Kue?
 rails generate kue:install
+
 rails db:migrate
 
 ### Use Kue
