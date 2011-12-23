@@ -20,7 +20,7 @@ class KueStore < ActiveRecord::Base
   end
   
   def self.exists?(key)
-    !self.[key].nil?
+    !self[key].nil?
   end
 end
 
