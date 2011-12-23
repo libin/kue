@@ -18,5 +18,9 @@ class KueStore < ActiveRecord::Base
     setting.value = value.to_yaml
     setting.save!
   end
+  
+  def self.exists?(key)
+    !self.[key].nil?
+  end
 end
 
