@@ -22,7 +22,7 @@ Get a value by key
 KueStore[:any_setting_name_you_can_think_of] 
 ```
 
-Don't worry it's not just string value's kue can hold onto. It's anything!
+Don't worry it's not just string value's kue can store for you. It's anything!
 
 ```ruby
 KueStore[:my_class_instance] = Foo.new(:name => 1)
