@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Daniel Watson"]
   s.email       = ["dan@dotnetguy.co.uk"]
   s.homepage    = ""
-  s.summary     = %q{Kue is a key value store that uses ActiveRecord.}
+  s.summary     = %q{Kue is a simple key value store that uses ActiveRecord.}
   s.description = %q{Store arbitrary key value pairs for your application using kue's simple api'}
 
   s.rubyforge_project = "kue"
