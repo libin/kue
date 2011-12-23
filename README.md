@@ -13,13 +13,13 @@ Redis is awesome! But sometimes you just don't want or need the external dependa
     rails db:migrate
 
 ### Use Kue
-Set a key and it's value
+Set a key and it's value.
 
 ```ruby
 KueStore[:any_key_name_you_can_think_of] = "Any object you can dream up"
 ```
 
-Get a value by key
+Get a value by key.
 
 ```ruby
 KueStore[:any_setting_name_you_can_think_of] 
