@@ -1,4 +1,4 @@
-class KueSettingsTableCreate < ActiveRecord::Migration
+class KueSettingsTableCreateMigration < ActiveRecord::Migration
  def up
   create_table :kue_settings, :id => false do |t|
    t.string :key
