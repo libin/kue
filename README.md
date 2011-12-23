@@ -2,7 +2,7 @@
 
 Kue is a key value store that uses active-record under the hood.
 
-###What's it mean
+###What does Kue mean?
 K(eyVal)ue 
 
 ### Install Kue
