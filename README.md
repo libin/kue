@@ -46,6 +46,6 @@ KueStore.exists?(:my_class_instance)
 
 
 ### WTF dude there are no spec's?!?
-Yep! This has been extracted out of one of my production application that does have specs! 
+Yep! This has been extracted out of one of my production applications that does have specs! 
 Don't have the time to setup all the tests and specs for kue. 
 I will merge a nice pull request though!
